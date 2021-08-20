@@ -1,0 +1,16 @@
+#发送邮件的时候一定要记得发给自己，不然邮件会发不出去
+mconf:
+  smtp_server: "smtp.ym.163.com"
+  smtp_port: 465
+  fromuser: "he@raiyee.com"
+  password: weyoung!
+  api_listen_port: 5000
+
+#邮件分组，promethues,根据不同的人员，发出不一样的邮件提醒
+send_to:
+- name: hewei
+  user_list:
+  - hewei@raiyee.com
+  - hewei5198@163.com
+
+
